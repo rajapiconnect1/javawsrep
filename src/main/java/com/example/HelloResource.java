@@ -22,7 +22,7 @@ public class HelloResource {
 	@Produces("application/json")
 	public String getInformation() throws Exception, IOException {
         JSONObject myJSONObj = new JSONObject();
-        myJSONObj.put("message", "Hello World!");
+        myJSONObj.put("message", "Hello World! Welcome to jax-rs");
         return myJSONObj.toString();
         
 	}
